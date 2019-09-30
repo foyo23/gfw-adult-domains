@@ -1,5 +1,5 @@
-1. 从https://sites.google.com/site/wsydcz/list/ww得到html文件
-curl https://sites.google.com/site/wsydcz/list/ww > gfwlist_adult.html
+1. 从https://sites.google.com/site/wsydcz/list/crwz 得到html文件
+  curl https://sites.google.com/site/wsydcz/list/crwz > gfwlist_adult.html
 
 2. 用此程序把html中的网址取出来，用于v2ray的配置文件，以block掉这些adult sites
 ruby domain-match.rb
